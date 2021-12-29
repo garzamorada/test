@@ -17,3 +17,7 @@ def subsetMN(setM,intN):
             subsetMN = [numM,(numM - intN)]
             return subsetMN
 
+
+#No se espesifica si son naturales o enteros por lo que asumo que puden ser negativos
+#Como no especifican lenguaje elegí python si desean manejo de errores lo haríamos con decoradores.
+
