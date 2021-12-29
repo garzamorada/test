@@ -120,7 +120,7 @@ export class GildedRose {
                     }
                 }
 
-            } else { /* casos conjurados, solo evalua los items que se degradan */
+            } else { /* casos conjurados */
                 if (this.items[i].name.indexOf('Sulfuras, Hand of Ragnaros') == -1 && this.items[i].name.indexOf('Aged Brie') == -1 && this.items[i].name.indexOf('Backstage passes to a TAFKAL80ETC concert') == -1) {
                     if (this.items[i].sellIn >= 0) {
                         this.items[i].quality = this.items[i].quality - 2
